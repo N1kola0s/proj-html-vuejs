@@ -1,0 +1,15 @@
+@import '~/node_modules/bootstrap/scss/bootstrap.scss';
+//commons
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
