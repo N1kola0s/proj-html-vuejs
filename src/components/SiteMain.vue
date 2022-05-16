@@ -307,19 +307,23 @@ export default {
     /* background-color:green; */
 
     .card{
+      height: 100%;
     
       .card-body{
-        
+        padding:0.5rem;
         border: 1px solid lightgray;
         h5{
-          font-size:15px;
+          font-size:13px;
           margin-bottom:15px;
           padding-bottom:19px;
           border-bottom: 1px solid lightgray;
+          
         }
         .card_category{
+          display:flex;
+          align-items: center;
           color:$venus;
-          font-size: 13px;
+          font-size: 12px;
           margin-bottom: 10px;
           .icon{
             font-size:8px;
