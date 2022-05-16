@@ -60,7 +60,7 @@
             <div class="input-group rounded-0">
               <input type="text" class="form-control" placeholder="Search courses" aria-label="Recipient's username" aria-describedby="button-addon2">
               <button class="btn btn-secondary btn_blue" type="button" id="button-addon2">
-                <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="icon" />
+                <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="icon p-0" />
               </button>
             </div>
           </div>
