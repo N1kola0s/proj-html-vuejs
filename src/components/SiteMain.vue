@@ -754,6 +754,219 @@
     <!-- /.banner_subscription -->
 
     <section class="popular_courses">
+      <div class="container_lg">
+
+        <h2>Popular courses</h2>
+        <p>Discover our most popular courses for self learning</p>
+
+        <div class="row row-cols-6 g-4">
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/895786_7b4b_2-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_01">
+              <div class="card-body">
+                <div Class="card_category">Development<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">The Complete iOS 10 & Swift 3 Developer Course</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$199.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$100</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+                </div>
+                <!-- /card_info -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/1561458_7f3b-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_02">
+              <div class="card-body">
+                <div Class="card_category">Design<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">CSS - The Complete Guide 2020 (incl. Flexbox, Grid & Sass)</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$199.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$100</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+                </div>
+                <!-- /card_info -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/246154_d8b0_3-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_03">
+              <div class="card-body">
+                <div Class="card_category">Development<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Web Design for Beginners: Real World Coding in HTML & CSS</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$129.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$65</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+                </div>
+                <!-- /card_info -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/1208228_d61c_4-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_04">
+              <div class="card-body">
+                <div Class="card_category">Design<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Digitally Painting Light and Color: Amateur to Master</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$139.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$70</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+                </div>
+                <!-- /card_info -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/186792_41e4_4-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_05">
+              <div class="card-body">
+                <div Class="card_category">Arts & Crafts<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Become an Arabic Calligraphy Artist from Scratch</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$89.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$45</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+                </div>
+                <!-- /card_info -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+
+           <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/1776542_30b1-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_06">
+              <div class="card-body">
+                <div Class="card_category">Google<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Google Searching Ninja!</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$89.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$45</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+                </div>
+                <!-- /card_info -->
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+
+        </div>
+        <!-- /.row -->
+
+        <div class="navigator d-flex w-100 justify-content-center">
+          <div class="prev d-flex justify-content-center align-items-center"><font-awesome-icon icon="fa-solid fa-chevron-left" /></div>
+          <div class="next d-flex justify-content-center align-items-center"><font-awesome-icon icon="fa-solid fa-chevron-right" /></div>
+        </div>
+
+
+
+      </div>
+      <!-- /.container_lg -->
 
     </section>
     <!-- /.popular_courses -->
@@ -862,8 +1075,7 @@ export default {
                 font-size:24px;
               }
             }
-          }
-          
+          } 
         }
       }
 
@@ -967,6 +1179,49 @@ export default {
 
             
           
+        }
+      }
+
+
+      .popular_courses{
+        background-color: $mystic;
+        h2{
+          font-size:50px;
+          font-weight: bold;
+          padding: 5.1875rem 0 0;
+          text-align: center;
+        }
+
+        p{
+          font-size:18px;
+          text-align: center;
+          color:$venus;
+        }
+
+        .row{
+          padding: 2.3125rem 0;
+        }
+
+        .navigator{
+          padding:0 0 3.625rem;
+          .prev,
+          .next{
+            background-color:$white;
+            color:$venus;
+            height:45px;
+            aspect-ratio: 1 / 1;
+            font-size:14px;
+            border: 1px solid lightgray;
+            cursor:pointer;
+            
+          }
+
+          .prev:hover,
+          .next:hover{
+            background-color:$boston-blue;
+            color:$white;
+            transition: 0.8s ease;
+          }
         }
       }
 

@@ -10,7 +10,7 @@ import "@fontsource/open-sans/600.css"
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 /* import specific icons 👇 QUI AGGIUNGI LE ICONE che vuoi usare in camelCase */
-import { faUserSecret, faMagnifyingGlass, faChevronDown, faBars, faBullhorn, faBriefcase, faChartColumn, faPalette, faGear, faFaceSmile, faPrint, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret, faMagnifyingGlass, faChevronDown, faBars, faBullhorn, faBriefcase, faChartColumn, faPalette, faGear, faFaceSmile, faPrint, faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faTwitter, faInstagram, faLinkedin, faGooglePlus, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faUser, faBookmark } from '@fortawesome/free-regular-svg-icons'
 
@@ -18,7 +18,7 @@ import { faUser, faBookmark } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library 👇 QUI AGGIUNGI IL NOME DELL'ICONA in camelCase*/
-library.add(faUserSecret, faMagnifyingGlass, faChevronDown, faFacebook, faTwitter, faInstagram, faLinkedin, faGooglePlus, faYoutube, faBars, faUser, faBookmark, faBullhorn, faBriefcase, faChartColumn, faPalette, faGear, faFaceSmile, faPrint, faChevronRight)
+library.add(faUserSecret, faMagnifyingGlass, faChevronDown, faFacebook, faTwitter, faInstagram, faLinkedin, faGooglePlus, faYoutube, faBars, faUser, faBookmark, faBullhorn, faBriefcase, faChartColumn, faPalette, faGear, faFaceSmile, faPrint, faChevronRight, faChevronLeft)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
