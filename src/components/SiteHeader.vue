@@ -157,6 +157,10 @@ export default {
             border-radius: 0;
             
           }
+
+          button{
+            background-color: $azure;
+          }
         }
 
         a{
@@ -166,6 +170,14 @@ export default {
         ul{
           li{
             padding:0 20px;
+          }
+        }
+
+        .user_area{
+          button:hover{
+            background-color:$btn-hover-bg-primary;
+            color:$white;
+            transition: 0.5s ease;
           }
         }
       }

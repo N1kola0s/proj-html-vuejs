@@ -42,6 +42,12 @@ h1 {
     margin: 0 1.687rem;
 }
 
+.btn_coral:hover {
+    background-color: $btn-hover-bg-tertiary;
+    color: $white;
+    transition: 0.5s ease;
+}
+
 #app {
     font-family: 'Open Sans', sans-serif;
 }

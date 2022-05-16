@@ -971,12 +971,98 @@
     </section>
     <!-- /.popular_courses -->
 
-    <section class="affiliate_prog">
+    <section class="affiliate_prog py-5">
+
+      <div class="container_lg">
+
+        <div class="row row-cols-2">
+          <div class="col h-100">
+
+            <div class="card rounded-0 m-3 d-flex align-items-center ">
+              <div class="row g-0 py-4 align-items-center">
+                <div class="col-md-4">
+                  <img src="../assets/img/image_box_1-221x231.png" class="img-fluid rounded-start" alt="become_an_instructor">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body border-0 rounded-0">
+                    <h4 class="card-title">
+                      Become an Instructor
+                    </h4>
+                    <!-- /.card-title -->
+                    <p class="card-text">
+                      Teach what you love. Masterstudy gives you the tools to create a course
+                    </p>
+                    <!-- /.card-text -->
+                      <div class="cta d-flex justify-content-start">
+                        <button class="btn btn_coral text-uppercase m-0">start teaching</button>
+                      </div>
+                      <!-- /.cta -->
+                  </div>
+                  <!-- /card-body -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.card -->
+
+          </div>
+          <!-- /.col -->
+
+          <div class="col h-100">
+
+            <div class="card rounded-0 m-3 d-flex align-items-center ">
+              <div class="row g-0 py-4 align-items-center">
+                <div class="col-md-4">
+                  <img src="../assets/img/image_box_2-234x231.png" class="img-fluid rounded-start" alt="access_for_business">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body border-0 rounded-0">
+                    <h4 class="card-title">
+                      Access For Business
+                    </h4>
+                    <!-- /.card-title -->
+                    <p class="card-text">
+                      Get unlimited access to 2,500 of top courses for your team.
+                    </p>
+                    <!-- /.card-text -->
+                      <div class="cta d-flex justify-content-start">
+                        <button class="btn btn_coral text-uppercase m-0">doing business</button>
+                      </div>
+                      <!-- /.cta -->
+                  </div>
+                  <!-- /card-body -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.card -->
+
+          </div>
+          <!-- /.col -->
+          
+        </div>
+        <!-- /.row -->
+      </div>
 
     </section>
     <!-- /.affiliate_prog -->
 
-    <section class="testimonials">
+    <section class="testimonials bubble_right">
+
+      <div class="review">
+
+        <h3>Investing for Your Future</h3>
+
+        <p>It is no exaggeration to say this MasterStydy experience was transformative-both professionally and personally. This workshop will long remain a high point of my life. Thanks again.... I am feeling energized and eager to start teaching my class next week. I'can't wait to use all of my new teaching tools. I will absolutely recommend this workshop to other educators!</p>
+
+        <h5>Linda Green</h5>
+        <h6>Product Manager, Apple Inc</h6>
+        
+
+      </div>
+
 
     </section>
     <!-- /.testimonials -->
@@ -1074,7 +1160,7 @@ export default {
               p{
                 font-size:24px;
               }
-            }
+              }
           } 
         }
       }
@@ -1175,6 +1261,7 @@ export default {
 
               button{
                 width: 135px;
+                background-color: $azure;
               }
 
             
@@ -1218,11 +1305,90 @@ export default {
 
           .prev:hover,
           .next:hover{
-            background-color:$boston-blue;
+            background-color:$btn-hover-bg-secondary;
             color:$white;
-            transition: 0.8s ease;
+            transition: 0.5s ease;
           }
         }
+      }
+
+      .affiliate_prog{
+        .card{
+          padding: 2.5rem;
+          color:$ebony-clay;
+
+          img{
+            height: 184px;
+          }
+
+          h4{
+            font-size:32px;
+            font-weight: 600;
+          }
+
+          p{
+            font-size:16px;
+            padding: 0.2rem 0;
+
+          }
+ 
+        }
+      }
+
+      .testimonials{
+        background-image: url('../assets/img/testimonial-1-1917x640-1-1914x639.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:670px;
+        position:relative;
+
+        .review{
+          /* position: relative; */
+          max-width: 737px;
+          min-height: 525px;
+          padding: 5rem;
+          background-color: $white;
+          position: absolute;
+          top: 75px;
+          left: 415px;
+
+        
+          h3{
+            font-size:32px;
+            margin: 20px 0 30px;
+            font-weight: 600;
+          }
+
+          p{
+            font-size:18px;
+            margin-bottom:30px;
+            position:relative;
+
+          }
+
+           p::before{
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            top: 40%;
+            right: -102px;
+            border-style: solid;
+            border-width: 17.5px 0 17.5px 24px;
+            border-color: transparent transparent transparent $white;
+          }
+
+          h5{
+            font-size:18px;
+            font-weight: 600;
+          }
+
+          h6{
+            font-size:14px;
+          }
+        }
+
+        
       }
 
 
