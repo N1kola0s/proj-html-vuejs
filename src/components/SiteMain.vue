@@ -252,6 +252,34 @@
     <!-- /.dev_courses -->
 
     <section class="learning">
+      <div class="row row-cols-2 h-100">
+
+        <div class="col h-100 d-flex align-items-center justify-content-end">
+
+          <div class="learning_text w-75">
+            <h2>
+              Limitless learning, <br>
+              more possibilities
+            </h2>
+
+            <p>
+              Online courses open the opportunity for learning to almost anyone, regardless of their scheduling commitments.
+            </p>
+
+            <button class="btn btn_coral text-uppercase">read more</button>
+
+          </div>
+          <!-- /.learning_text -->
+         
+          
+        </div>
+        <!-- /.col -->
+
+        <div class="col"></div>
+        <!-- /.col -->
+
+      </div>
+      <!-- /.row -->
 
     </section>
     <!-- /.learning -->
@@ -356,38 +384,57 @@ export default {
 
     .hero{
       background-color: $coral-red;
-        h1{
-          font-weight: bold;
-        }
+        
         .row{
           .col{
             position:relative;
-          
 
               .hero_text{
-            width: 75%;
-            position: absolute;
-            top: 90px;
-            left: 230px;
+              width: 75%;
+              position: absolute;
+              top: 90px;
+              left: 230px;
             
-            h1{
-            font-size: 50px;
-            }
+              h1{
+                font-size: 50px;
+              }
 
-            p{
-              font-size:24px;
+              p{
+                font-size:24px;
+              }
             }
           }
-
-          
-        }
           
         }
       }
 
-      .dev_courses{
+    .dev_courses{
             padding: 4.375rem 0.625rem;
           }
+
+    .learning{
+        background-image: url('../assets/img/bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 537px;
+
+        .learning_text{
+
+          h2{
+            font-size: 50px;
+          }
+  
+          p{
+            font-size:18px;
+            width: 90%;
+          }
+
+          button{
+            margin: 2.25rem 0;
+          }
+        }
+
+      }
 
 
 
