@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+.container_lg {
+    width: 1440px;
+    margin: auto;
+}
+
 img {
     max-width: 100%;
 }
@@ -16,6 +21,21 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.btn_blue {
+    border-radius: 0;
+    background-color: $oxford-blue;
+}
+
+.btn_coral {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    padding: 1.25rem 2rem;
+    border-radius: 35px;
+    background-color: #FF4550;
+    margin: 0 1.687rem;
 }
 
 #app {

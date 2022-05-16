@@ -1,6 +1,6 @@
 <template>
   <main id="site_main">
-    ciao
+    ciao <font-awesome-icon icon="fa-regular fa-bookmark" />
 
   </main>
   <!-- /#site_main -->
