@@ -109,7 +109,8 @@ export default {
       .nav_top{
           padding: 10px;
           background-color:white ;
-          font-size: 10px;
+          font-size: 12px;
+          border-bottom: 1px solid lightgray;
           /* height: 42px; */
 
           .nav_top_right{
@@ -133,7 +134,7 @@ export default {
       .nav_bottom{
         /* height: 82px; */
         padding:11px 10px;
-        font-size: 14px;
+        font-size: 13px;
         .logo{
           height: 36px;
           width: 200px;

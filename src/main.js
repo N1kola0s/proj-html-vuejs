@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+import "@fontsource/open-sans"
+import "@fontsource/open-sans/400.css"
+import "@fontsource/open-sans/600.css"
+
 /* Font Awesome icons*/
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
