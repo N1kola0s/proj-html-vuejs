@@ -44,7 +44,7 @@
 
       <div class="container_lg">
         <h2>Popoular Develompent Courses</h2>
-        <div class="row row-cols-6">
+        <div class="row row-cols-6 g-4">
           <div class="col">
             <div class="card rounded-0 border-0">
               <img src="../assets/img/895786_7b4b_2-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_tablet">
@@ -285,11 +285,470 @@
     <!-- /.learning -->
 
     <section class="recent_courses">
+      <div class="container_lg">
+        <h2>Recent courses</h2>
+        <div class="list_categories w-100">
+          <ul class="d-flex justify-content-center">
+            <li><a href="#">All categories</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">IT & Software</a></li>
+            <li><a href="#">LifeStyle</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Office Productivity</a></li>
+          </ul>
+
+         
+
+        </div>
+        <!-- /.list_categories -->
+
+        <div class="row row-cols-6 g-4">
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/895786_7b4b_2-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_01">
+              <div class="card-body">
+                <div Class="card_category">Development<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">The Complete iOS 10 & Swift3 Developer Course</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$199.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$100</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/1561458_7f3b-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_02">
+              <div class="card-body">
+                <div Class="card_category">Design<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">CSS - The Complete Guide 2020 (incl. Flexbox, Grid & Sass)</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$199.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$100</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/246154_d8b0_3-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_03">
+              <div class="card-body">
+                <div Class="card_category">Development<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Web Design for Beginners: Real World Coding in HTML & CSS</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$129.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$65</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/1208228_d61c_4-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_04">
+              <div class="card-body">
+                <div Class="card_category">Design<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Digitally Painting Light and Color: Amateur to Master</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$139.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$70</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/186792_41e4_4-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_05">
+              <div class="card-body">
+                <div Class="card_category">Arts & Crafts<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Become an Arabic Calligraphy Artist from Scratch</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$199.99</del></div>
+                    <!-- /.original_price -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/1776542_30b1-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_06">
+              <div class="card-body">
+                <div Class="card_category">Google<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Google Searching Ninja!</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$89.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$45</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/949316_2a64_11-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_07">
+              <div class="card-body">
+                <div Class="card_category">Arts & Crafts<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Foundations for Mastering Watercolors Painting</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$19.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$10</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/366802_6fcc-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_08">
+              <div class="card-body">
+                <div Class="card_category">Food & Beverage<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Get Wine - Smart</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$49.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$25</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/381588_2e6d_4-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_09">
+              <div class="card-body">
+                <div Class="card_category">Arts & Crafts<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">The Colored Pencil Drawing Course</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$34.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$18</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/838056_611a_3-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_10">
+              <div class="card-body">
+                <div Class="card_category">Arts & Crafts<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Paint Realistic Watercolor and Botanicals - STUDIO BASICS</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$69.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$35</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/1414956_d944_15-272x161.jpg" class="card-img-top border-0 rounded-0" alt="image_11">
+              <div class="card-body">
+                <div Class="card_category">Arts & Crafts<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Mastering Brushstrokes - Part 1</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$19.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$10</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+      
+                
+              </div>
+            </div>
+          </div>
+          <!-- /.col -->
+
+          <div class="col">
+            <div class="card rounded-0 border-0">
+              <img src="../assets/img/1109398_4c13-544x322.jpg" class="card-img-top border-0 rounded-0" alt="image_12">
+              <div class="card-body">
+                <div Class="card_category">Development<font-awesome-icon icon="fa-solid fa-chevron-right" class="icon" /></div>
+                <h5 class="card-title">Paint Realistic Watercolour and Botanicals - MAGNOLIAS</h5>
+                <div class="card_info d-flex justify-content-between align-items-center">
+                  <div class="vote_average">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/starfull.svg" alt="vote_starfull">
+                    <img src="../assets/img/staremptyl.svg" alt="vote_staremtpy" class="star_emtpy">
+
+                  </div>
+                  <!-- /.vote_average -->
+                  <div class="price d-flex flex-column justify-content-end align-items-end">
+                    <div class="original_price"><del>$69.99</del></div>
+                    <!-- /.original_price -->
+                    <div class="price_discounted"><strong>$35</strong></div>
+                    <!-- /.price_discounted -->
+                  </div>
+                  <!-- /.price -->
+
+                </div>
+                <!-- /card_info -->
+
+              </div>
+
+            </div>
+
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <div class="cta d-flex justify-content-center">
+          <button class="btn btn_coral text-uppercase">show all</button>
+        </div>
+        <!-- /.cta -->
+
+      
+      </div>
+      <!-- /.container_lg -->
   
     </section>
     <!-- /.recent_courses -->
 
     <section class="banner_subscription">
+      <div class="container_lg">
+        <div class="row cols-2">
+          <div class="col-7 d-flex">
+
+            <div class="subscription_text d-flex flex-column justify-content-center py-5">
+              <h3 class="text-white">Subscribe our newsletter</h3>
+              <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col-5 d-flex align-items-start py-5">
+            <div class="user_email">
+              <label for="exampleInputEmail1" class="text-uppercase text-white py-2">your e-mail address</label>
+              <div class="input-group rounded-0">
+                <input type="email" class="form-control border-0 rounded-0" id="exampleInputEmail1" placeholder="Enter your E-mail"  aria-describedby="emailHelp">
+                <button class="btn btn-secondary btn_blue text-uppercase" type="button" id="button-addon2">
+                  subscribe
+                </button>
+              </div>
+              <!-- /.input-group -->
+            </div>
+            <!-- /.user_email -->
+
+          </div>
+          <!-- /.col -->
+
+        </div>
+        <!-- /.row -->
+        
+      </div>
+      <!-- /.container_lg -->
 
     </section>
     <!-- /.banner_subscription -->
@@ -436,6 +895,80 @@ export default {
 
       }
 
+      .recent_courses{
+        padding: 5.125rem 0;
+        .container_lg{
+          h2{
+            font-size:50px;
+            text-align: center;
+          }
+
+          .list_categories{
+            padding: 2.875rem 0;
+            ul{
+              margin:0;
+              li{
+                a{
+                  line-height: 30px;
+                  color:$light-half-baked;
+                  padding: 10px 15px;
+                  margin: 0 7px;
+                  border-radius: 20px;
+                }
+              }
+
+              li:hover a{
+                background-color:$mystic;
+                color: $venus;
+              }
+            }
+          }
+
+          .cta{
+            padding: 3.9375rem 0 0;
+          }
+
+        }
+      }
+
+
+      .banner_subscription{
+        background-color: $coral-red;
+        .container_lg{
+          
+            
+              h3{
+                font-size: 19px;
+                margin:10px 0;
+                font-weight: bold;
+              }
+
+              p{
+                margin:10px 0px;
+                font-size: 17px;
+              }
+
+              label{
+                font-size: 14px;
+                margin:4px 0 10px;
+              }
+
+              input{
+                background-color:$white;
+                width: 370px;
+                height: 45px;
+                padding:6px 12px;
+
+              }
+
+              button{
+                width: 135px;
+              }
+
+            
+          
+        }
+      }
 
 
 
