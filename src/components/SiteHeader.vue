@@ -63,6 +63,7 @@
                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="icon p-0" />
               </button>
             </div>
+            <!-- /.input-group -->
           </div>
           <!-- /.search_box -->
         </div>
