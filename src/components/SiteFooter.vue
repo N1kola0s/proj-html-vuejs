@@ -171,6 +171,12 @@ export default {
 
     .footer_top{
 
+      .footer_title{
+      font-size:18px;
+      font-weight: 600;
+      padding-bottom:10px;
+      }
+
       .container_footer{
         padding: 2.875rem 0;
       }
