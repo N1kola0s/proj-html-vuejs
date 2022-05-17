@@ -1260,11 +1260,12 @@ export default {
             position:absolute;
             height:188px;
             width:50px;
-            color:rgba(11, 11, 11, 0.803);
+            color:#606060;
             box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
             padding: 15px 0;
             bottom:155px;
             right:0;
+            background-color:$white;
           }
         }
       }
