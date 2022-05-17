@@ -19,23 +19,15 @@
           
           <span class="main_menu ">
             <ul class="d-flex align-items-center mb-0">
-              <li v-for="list in NavLists" :key="list.id"><a href="#">{{list.item}}</a></li>
-              <!-- <li><a href="#">Pages</a></li>
-              <li><a href="#">Course Formats</a></li>
-              <li><a href="#">Courses</a></li>
-              <li><a href="#">Demos</a></li> -->
+              <NavbarMenu :list="list" v-for="list in NavLists" :key="list.id" />
             </ul>
           </span>
           <span class="socials">
-            <a href="#"><font-awesome-icon v-for="element in NavSocialList" :key="element.id" :icon="element.icon" class="pe-2"/></a>
-            <!-- <font-awesome-icon icon="fa-brands fa-twitter" class="pe-2" />
-            <font-awesome-icon icon="fa-brands fa-instagram" class="pe-2" />
-            <font-awesome-icon icon="fa-brands fa-linkedin" class="pe-2" />
-            <font-awesome-icon icon="fa-brands fa-google-plus" class="pe-2" />
-            <font-awesome-icon icon="fa-brands fa-youtube" class="pe-2" /> -->
+            
+            <NavbarSocialList :element="element" v-for="element in NavSocialList" :key="element.id" />
+
           </span>
           <!-- /.socials -->
-          
 
         </div>
         <!-- /.nav_top_right -->
@@ -92,8 +84,16 @@
 </template>
 
 <script>
+import NavbarMenu from "@/components/NavbarMenu.vue";
+import NavbarSocialList from "@/components/NavbarSocialList.vue";
+
+
 export default {
   name: 'SiteHeader',
+  components:{
+    NavbarMenu,
+    NavbarSocialList,
+  },
   data(){
     return{
       NavLists:[
@@ -160,28 +160,11 @@ export default {
           padding: 10px;
           background-color:white ;
           font-size: 12px;
-          border-bottom: 1px solid lightgray;
-          /* height: 42px; */
-
-          a{
-            color:$venus
-          }
-          .nav_top_right{
-            .main_menu{
-              margin-right: 0.445rem;
-              ul{
-                li{
-                  padding:0 1.43rem 0 0;
-                }
-              }
-            }
-          }
-
-          
+          border-bottom: 1px solid lightgray;  
       }
 
       .nav_bottom{
-        /* height: 82px; */
+        
         padding:11px 10px;
         font-size: 13px;
         .logo{
