@@ -1180,7 +1180,8 @@ export default {
               width: 75%;
               position: absolute;
               top: 90px;
-              left: 230px;
+              /* left: 230px; */
+              left:185px;
             
               h1{
                 font-size: 50px;
