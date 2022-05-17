@@ -9,17 +9,6 @@
           <div class="col">
 
             <div class="row row-cols-2">
-             <!--  <div class="col">
-                <h3 class="footer_title text-uppercase text-white"> 
-                  about
-                </h3>
-
-                <div class="footer_txt text-white">
-                  Sed nec felis pellentesque, lacrinia dui sed, ultricies sapien. Pellentesque orci lectus, consectur vel, rutrum eu ipsum. Mauris accumsan eros eget libero posuere vulputate.
-                </div>
-
-              </div> -->
-              <!-- /.col -->
               <div class="col" v-for="(item, index) in FooterMenu" :key="index">
                 <h3 class="footer_title text-uppercase text-white"> 
                   {{item.title}}
@@ -63,71 +52,14 @@
 
                   <div class="row row-cols-4">
 
-                    <div class="col">
-                      <div class="media_channel facebook d-flex align-items-center justify-content-center">
-                        <font-awesome-icon icon="fa-brands fa-facebook" class="brand"/>
+                    <div class="col" v-for="social in socials" :key="social.id">
+                      <div class="media_channel d-flex align-items-center justify-content-center" :class="social.name">
+                        <font-awesome-icon :icon="social.icon" class="brand"/>
                       </div>
                       <!-- /.channel -->
                     </div>
                     <!-- /.col -->
-
-                    <div class="col">
-                      <div class="media_channel instagram d-flex align-items-center justify-content-center">
-                        <font-awesome-icon icon="fa-brands fa-instagram" class="brand"/>
-                      </div>
-                      <!-- /.channel -->
-                    </div>
-                    <!-- /.col -->
-
-                    <div class="col">
-                      <div class="media_channel linkedin d-flex align-items-center justify-content-center">
-                        <font-awesome-icon icon="fa-brands fa-linkedin" class="brand"/>
-                      </div>
-                      <!-- /.channel -->
-                    </div>
-                    <!-- /.col -->
-
-                    <div class="col">
-                      <div class="media_channel pinterest d-flex align-items-center justify-content-center">
-                        <font-awesome-icon icon="fa-brands fa-pinterest" class="brand"/>
-                      </div>
-                      <!-- /.channel -->
-                    </div>
-                    <!-- /.col -->
-
-                    <div class="col">
-                      <div class="media_channel twitter d-flex align-items-center justify-content-center">
-                        <font-awesome-icon icon="fa-brands fa-twitter" class="brand" />
-                      </div>
-                      <!-- /.channel -->
-                    </div>
-                    <!-- /.col -->
-
-                    <div class="col">
-                      <div class="media_channel dribbble d-flex align-items-center justify-content-center">
-                        <font-awesome-icon icon="fa-brands fa-dribbble" class="brand"/>
-                      </div>
-                      <!-- /.channel -->
-                    </div>
-                    <!-- /.col -->
-
-                    <div class="col">
-                      <div class="media_channel google d-flex align-items-center justify-content-center">
-                        <font-awesome-icon icon="fa-brands fa-google-plus" class="brand" />
-                      </div>
-                      <!-- /.channel -->
-                    </div>
-                    <!-- /.col -->
-
-                    <div class="col">
-                      <div class="media_channel skype d-flex align-items-center justify-content-center">
-                        <font-awesome-icon icon="fa-brands fa-skype" class="brand"/>
-                      </div>
-                      <!-- /.channel -->
-                      
-                    </div>
-                    <!-- /.col -->
-
+      
                   </div>
                   <!-- /.row -->
                 
@@ -208,6 +140,49 @@ export default {
           fax:'+1 212 375 24 14',
           email: 'info@masterstydy.com'
         }
+      ],
+      socials:[
+        {
+          id:1,
+          name:'facebook',
+          icon:'fa-brands fa-facebook'
+        },
+        {
+          id:2,
+          name:'instagram',
+          icon:'fa-brands fa-instagram'
+        },
+        {
+          id:3,
+          name:'linkedin',
+          icon:'fa-brands fa-linkedin'
+
+        },
+        {
+          id:4,
+          name:'pinterest',
+          icon:'fa-brands fa-pinterest'
+        },
+        {
+          id:5,
+          name:'twitter',
+          icon:'fa-brands fa-twitter'
+        },
+        {
+          id:6,
+          name:'dribbble',
+          icon:'fa-brands fa-dribbble'
+        },
+        {
+          id:7,
+          name:'google',
+          icon:'fa-brands fa-google-plus'
+        },
+        {
+          id:8,
+          name:'skype',
+          icon:'fa-brands fa-skype'
+        }
       ]
     }
   }
@@ -266,6 +241,38 @@ export default {
 
       }
 
+      .facebook {
+          background-color: #3b5998;
+      }
+
+      .instagram {
+          background-color: #c32aa3;
+      }
+
+      .linkedin {
+          background-color: #0077b5;
+      }
+
+      .pinterest {
+          background: #bd081c;
+      }
+
+      .twitter {
+          background-color: #1da1f2;
+      }
+
+      .dribbble {
+          background-color: #ea4c89;
+      }
+
+      .google {
+          background-color: #db4437;
+      }
+
+      .skype {
+          background-color: #00aff0;
+      }
+
     }
 
     .footer_bottom{
@@ -273,7 +280,7 @@ export default {
         height:60px;
         padding:20px;
 
-        .footer_logo img{
+        .footer_logo>img{
           height:30px;
         }
         
