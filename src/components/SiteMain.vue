@@ -1116,6 +1116,10 @@ export default {
             padding: 0 2px;
           }
         }
+
+        del{
+          color:$venus;
+        }
       }
     }
 
