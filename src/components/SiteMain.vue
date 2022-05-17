@@ -987,6 +987,7 @@
           <div class="prev d-flex justify-content-center align-items-center"><font-awesome-icon icon="fa-solid fa-chevron-left" /></div>
           <div class="next d-flex justify-content-center align-items-center"><font-awesome-icon icon="fa-solid fa-chevron-right" /></div>
         </div>
+        <!-- /.navigator -->
 
 
 
