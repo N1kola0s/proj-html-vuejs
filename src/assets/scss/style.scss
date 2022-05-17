@@ -53,6 +53,13 @@ h1 {
     transition: 0.5s ease;
 }
 
+.form-control:focus {
+    color: #212529;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
 #app {
     font-family: 'Open Sans', sans-serif;
 }
