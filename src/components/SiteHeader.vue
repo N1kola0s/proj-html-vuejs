@@ -19,20 +19,20 @@
           
           <span class="main_menu ">
             <ul class="d-flex align-items-center mb-0">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Pages</a></li>
+              <li v-for="list in NavLists" :key="list.id"><a href="#">{{list.item}}</a></li>
+              <!-- <li><a href="#">Pages</a></li>
               <li><a href="#">Course Formats</a></li>
               <li><a href="#">Courses</a></li>
-              <li><a href="#">Demos</a></li>
+              <li><a href="#">Demos</a></li> -->
             </ul>
           </span>
           <span class="socials">
-            <font-awesome-icon icon="fa-brands fa-facebook" class="pe-2"/>
-            <font-awesome-icon icon="fa-brands fa-twitter" class="pe-2" />
+            <a href="#"><font-awesome-icon v-for="element in NavSocialList" :key="element.id" :icon="element.icon" class="pe-2"/></a>
+            <!-- <font-awesome-icon icon="fa-brands fa-twitter" class="pe-2" />
             <font-awesome-icon icon="fa-brands fa-instagram" class="pe-2" />
             <font-awesome-icon icon="fa-brands fa-linkedin" class="pe-2" />
             <font-awesome-icon icon="fa-brands fa-google-plus" class="pe-2" />
-            <font-awesome-icon icon="fa-brands fa-youtube" class="pe-2" />
+            <font-awesome-icon icon="fa-brands fa-youtube" class="pe-2" /> -->
           </span>
           <!-- /.socials -->
           
@@ -94,7 +94,57 @@
 <script>
 export default {
   name: 'SiteHeader',
-  props: {
+  data(){
+    return{
+      NavLists:[
+        {
+          id:1,
+          item:'Home'
+        },
+        {
+          id:2,
+          item:'Pages'
+        },
+        {
+          id:3,
+          item:'Course Formats'
+        },
+        {
+          id:4,
+          item:'Courses'
+        },
+        {
+          id:5,
+          item:'Demos'
+        },
+      ],
+      NavSocialList:[
+        {
+          id:1,
+          icon:'fa-brands fa-facebook'
+        },
+        {
+          id:2,
+          icon:'fa-brands fa-twitter'
+        },
+        {
+          id:3,
+          icon:'fa-brands fa-instagram'
+        },
+        {
+          id:4,
+          icon:'fa-brands fa-linkedin'
+        },
+        {
+          id:5,
+          icon:'fa-brands fa-google-plus'
+        },
+        {
+          id:6,
+          icon:'fa-brands fa-youtube'
+        }
+      ]
+    }
   }
 }
 </script>
@@ -113,16 +163,15 @@ export default {
           border-bottom: 1px solid lightgray;
           /* height: 42px; */
 
+          a{
+            color:$venus
+          }
           .nav_top_right{
             .main_menu{
               margin-right: 0.445rem;
               ul{
-                
                 li{
                   padding:0 1.43rem 0 0;
-                  a{
-                    color:$venus;
-                  }
                 }
               }
             }
