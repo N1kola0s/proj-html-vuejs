@@ -34,23 +34,9 @@
 <script>
 
 export default {
-    /* 
-    title = item.title
-    text = item.text
-    address = item.address
-    tel= item.tel
-    fax=item.fax
-    email=item.email
-     */
 
   name: 'FooterMenu',
   props:{
-      /* title: String,
-      text: String,
-      address: String,
-      tel: String,
-      fax: String,
-      email: String   */
       item: Object,
   }
 }
