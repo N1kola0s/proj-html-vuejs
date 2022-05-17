@@ -1225,7 +1225,6 @@ export default {
           .cta{
             padding: 3.9375rem 0 0;
           }
-
         }
       }
 
@@ -1390,10 +1389,6 @@ export default {
 
         
       }
-
-
-
-
 
     }
 

@@ -9,33 +9,7 @@
           <div class="col">
 
             <div class="row row-cols-2">
-              <div class="col" v-for="(item, index) in FooterMenu" :key="index">
-                <h3 class="footer_title text-uppercase text-white"> 
-                  {{item.title}}
-                </h3>
-
-                <div class="footer_txt text-white" v-show="item.text!=''">
-                  {{item.text}}
-                </div>
-                <!-- /.footer_text -->
-
-                <div class="footer_txt text-white" v-show="item.address!=''">
-                  {{item.address}}
-                </div>
-                <!-- /.footer_txt -->
-
-                <div class="footer_tel_fax text-white py-2" v-show="item.tel!=''&& item.fax!=''">
-                  Tel.: {{item.tel}} <br> Fax: {{item.fax}}
-                </div>
-                <!-- /.footer_tel_fax -->
-
-                <div class="footer_email py-2" v-show="item.email!=''">
-                  {{item.email}}
-                </div>
-                <!-- /.footer_email -->
-                
-              </div>
-              <!-- /.col -->
+              <FooterMenu  :item="item" v-for="(item, index) in FooterMenu" :key="index" />
             </div>
 
           </div>
@@ -117,9 +91,12 @@
 </template>
 
 <script>
+import FooterMenu from "@/components/FooterMenu.vue";
+
 export default {
   name: 'SiteFooter',
-  props: {
+  components: {
+    FooterMenu
   },
   data(){
     return{
@@ -208,20 +185,6 @@ export default {
             padding-bottom:10px;
           
           }
-
-          .footer_txt{
-            font-size:13px;
-          }
-
-          .footer_tel_fax{
-            font-size:13px;
-          }
-
-          .footer_email{
-            font-size:13px;
-            color:$venus;
-          }
-          
 
           .media_channel{
             height:38px;
