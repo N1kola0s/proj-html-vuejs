@@ -298,9 +298,6 @@
             <li><a href="#">Marketing</a></li>
             <li><a href="#">Office Productivity</a></li>
           </ul>
-
-         
-
         </div>
         <!-- /.list_categories -->
 
@@ -334,6 +331,7 @@
       
                 
               </div>
+              <!-- /.card-body -->
             </div>
           </div>
           <!-- /.col -->
@@ -398,10 +396,10 @@
 
                 </div>
                 <!-- /card_info -->
-      
-                
               </div>
+              <!-- /.card-body -->
             </div>
+            <!-- /.card -->
           </div>
           <!-- /.col -->
 
@@ -434,7 +432,9 @@
       
                 
               </div>
+              <!-- /.card-body -->
             </div>
+            <!-- /.card -->
           </div>
           <!-- /.col -->
 
@@ -465,7 +465,9 @@
       
                 
               </div>
+              <!-- /.card-body -->
             </div>
+            <!-- /.card -->
           </div>
           <!-- /.col -->
 
@@ -498,7 +500,9 @@
       
                 
               </div>
+              <!-- /.card-body -->
             </div>
+            <!-- /.card -->
           </div>
           <!-- /.col -->
 
@@ -531,7 +535,9 @@
       
                 
               </div>
+              <!-- /.card-body -->
             </div>
+            <!-- /.card -->
           </div>
           <!-- /.col -->
 
@@ -564,7 +570,9 @@
       
                 
               </div>
+              <!-- /.card-body -->
             </div>
+            <!-- /.card -->
           </div>
           <!-- /.col -->
 
@@ -597,7 +605,9 @@
       
                 
               </div>
+              <!-- /.card-body -->
             </div>
+            <!-- /.card -->
           </div>
           <!-- /.col -->
 
@@ -630,7 +640,9 @@
       
                 
               </div>
+              <!-- /.card-body -->
             </div>
+            <!-- /.card -->
           </div>
           <!-- /.col -->
 
@@ -664,7 +676,9 @@
       
                 
               </div>
+              <!-- /.card-body -->
             </div>
+            <!-- /.card -->
           </div>
           <!-- /.col -->
 
@@ -696,8 +710,10 @@
                 <!-- /card_info -->
 
               </div>
+              <!-- /.card-body -->
 
             </div>
+            <!-- /.card -->
 
           </div>
           <!-- /.col -->
@@ -708,6 +724,15 @@
           <button class="btn btn_coral text-uppercase">show all</button>
         </div>
         <!-- /.cta -->
+
+        <div class="right_bar d-flex flex-column justify-content-between align-items-center">
+          <font-awesome-icon icon="fa-solid fa-desktop" class="right_icon" />
+          <font-awesome-icon icon="fa-solid fa-globe" class="right_icon" />
+          <font-awesome-icon icon="fa-solid fa-wrench" class="right_icon" />
+          <font-awesome-icon icon="fa-solid fa-cart-shopping" class="right_icon"/>
+          <font-awesome-icon icon="fa-solid fa-mobile-screen" class="right_icon" />
+        </div>
+        <!-- /.right_bar -->
 
       
       </div>
@@ -1199,6 +1224,7 @@ export default {
 
       .recent_courses{
         padding: 5.125rem 0;
+        position:relative;
         .container_lg{
           h2{
             font-size:50px;
@@ -1228,6 +1254,17 @@ export default {
 
           .cta{
             padding: 3.9375rem 0 0;
+          }
+
+          .right_bar{
+            position:absolute;
+            height:188px;
+            width:50px;
+            color:rgba(11, 11, 11, 0.803);
+            box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+            padding: 15px 0;
+            bottom:155px;
+            right:0;
           }
         }
       }
