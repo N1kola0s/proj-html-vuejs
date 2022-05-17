@@ -174,6 +174,10 @@ export default {
       .container_footer{
         padding: 2.875rem 0;
       }
+
+      .udemy_adv img{
+      margin-left:25px;
+      }
     }
 
     .footer_bottom{
@@ -186,7 +190,6 @@ export default {
         }
         
       }
-
   }
 
 </style>

@@ -42,10 +42,6 @@ border-radius:100%;
 font-size:20px;
 }
 
-.udemy_adv img{
-margin-left:25px;
-}
-
 .facebook {
 background-color: #3b5998;
 }

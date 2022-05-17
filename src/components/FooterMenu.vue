@@ -34,11 +34,10 @@
 <script>
 
 export default {
-
-  name: 'FooterMenu',
-  props:{
-      item: Object,
-  }
+    name: 'FooterMenu',
+    props:{
+        item: Object,
+    }
 }
 </script>
 
