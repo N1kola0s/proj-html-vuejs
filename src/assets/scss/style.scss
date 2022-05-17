@@ -11,6 +11,11 @@
     margin: auto;
 }
 
+.container_footer {
+    width: 1000px;
+    margin: auto;
+}
+
 img {
     max-width: 100%;
 }
@@ -50,4 +55,37 @@ h1 {
 
 #app {
     font-family: 'Open Sans', sans-serif;
+}
+
+//bg-social-channel
+.facebook {
+    background-color: #3b5998;
+}
+
+.instagram {
+    background-color: #c32aa3;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.pinterest {
+    background: #bd081c;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.dribbble {
+    background-color: #ea4c89;
+}
+
+.google {
+    background-color: #db4437;
+}
+
+.skype {
+    background-color: #00aff0;
 }
