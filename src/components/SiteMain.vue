@@ -29,6 +29,7 @@
 
         <div class="col">
           <div class="hero_image">
+            <div class="skew"></div>
             <img src="../assets/img/slide-1.jpg" alt="udemy_affiliate">
           </div>
         </div>
@@ -1172,8 +1173,21 @@ export default {
 
     .hero{
       background-color: $coral-red;
+      position:relative;
+      
+      .skew{
+        position:absolute;
+        width:170px;
+        height:100%;
+        margin:100px;
+        background:$coral-red;
+        transform:skew(24deg);
+        top:-100px;
+        left:-173px;
+      }
         
         .row{
+          position:relative;
           .col{
             position:relative;
 
@@ -1181,8 +1195,9 @@ export default {
               width: 75%;
               position: absolute;
               top: 90px;
-              /* left: 230px; */
-              left:185px;
+              left:230px;
+              z-index:1;
+              /* left:185px; */
             
               h1{
                 font-size: 50px;
